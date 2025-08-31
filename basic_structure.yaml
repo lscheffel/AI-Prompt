@@ -1,0 +1,123 @@
+{
+  "prompt": {
+    "version": "3.1",
+    "timestamp": "{{current_timestamp}}",
+    "language": "{{preferred_language}}",
+    "language_strictness": "{{language_strictness}}",
+    "protocol_strictness": "{{protocol_strictness}}",
+    "context": {
+      "domain": "{{domain}}",
+      "subdomain": "{{subdomain}}",
+      "specific_topic": "{{specific_topic}}",
+      "geographical_scope": "{{geographical_scope}}",
+      "historical_period": "{{historical_period}}"
+    },
+    "task": {
+      "type": "{{task_type}}",
+      "goal": "{{task_goal}}",
+      "constraints": {
+        "word_limit": "{{word_limit}}",
+        "tone": "{{tone}}",
+        "audience": "{{audience}}",
+        "language_adherence": "{{language_adherence}}",
+        "technical_accuracy": "{{technical_accuracy}}",
+        "citation_requirement": "{{citation_requirement}}"
+      }
+    },
+    "content": {
+      "main_question": "{{main_question}}",
+      "subquestions": [
+        "{{subquestion_1}}",
+        "{{subquestion_2}}",
+        "{{subquestion_3}}",
+        "{{subquestion_4}}"
+      ],
+      "examples": [
+        {
+          "scenario": "{{scenario_1}}",
+          "expected_outcome": "{{expected_outcome_1}}"
+        },
+        {
+          "scenario": "{{scenario_2}}",
+          "expected_outcome": "{{expected_outcome_2}}"
+        }
+      ],
+      "additional_resources": [
+        "{{resource_1}}",
+        "{{resource_2}}",
+        "{{resource_3}}"
+      ]
+    },
+    "response_format": {
+      "structure": "{{structure_type}}",
+      "sections": [
+        "{{section_1}}",
+        "{{section_2}}",
+        "{{section_3}}",
+        "{{section_4}}",
+        "{{section_5}}",
+        "{{section_6}}",
+        "{{section_7}}",
+        "{{section_8}}",
+        "{{section_9}}",
+        "{{section_10}}",
+        "{{section_11}}",
+        "{{section_12}}"
+      ],
+      "output_type": "{{output_type}}",
+      "format_consistency": "{{format_consistency}}",
+      "section_length": "{{section_length}}",
+      "cross_referencing": "{{cross_referencing}}"
+    },
+    "feedback_mechanism": {
+      "expected": "{{feedback_expected}}",
+      "format": "{{feedback_format}}",
+      "fields": [
+        "{{feedback_field_1}}",
+        "{{feedback_field_2}}",
+        "{{feedback_field_3}}",
+        "{{feedback_field_4}}",
+        "{{feedback_field_5}}"
+      ],
+      "feedback_frequency": "{{feedback_frequency}}"
+    },
+    "depth_level": "{{depth_level}}",
+    "max_tokens_usage": "{{max_tokens_usage}}",
+    "include_diagrams": "{{include_diagrams}}",
+    "historical_context": "{{historical_context}}",
+    "future_trends": "{{future_trends}}",
+    "case_studies": "{{case_studies}}",
+    "comparisons": "{{comparisons}}",
+    "glossary": "{{glossary}}",
+    "quizzes": "{{quizzes}}",
+    "references": "{{references}}",
+    "prerequisites": "{{prerequisites}}",
+    "interactivity_suggestions": "{{interactivity_suggestions}}",
+    "visual_aids": "{{visual_aids}}",
+    "error_handling": "{{error_handling}}",
+    "performance_metrics": "{{performance_metrics}}",
+    "ensure_no_english": "{{ensure_no_english}}",
+    "translation_check": "{{translation_check}}",
+    "term_consistency": "{{term_consistency}}",
+    "audience_adaptation": "{{audience_adaptation}}",
+    "section_transitions": "{{section_transitions}}",
+    "citation_style": "{{citation_style}}",
+    "index_creation": "{{index_creation}}",
+    "summary_per_section": "{{summary_per_section}}",
+    "key_takeaways": "{{key_takeaways}}",
+    "protocol_adherence": "{{protocol_adherence}}",
+    "configuration_fineness": "{{configuration_fineness}}",
+    "error_tolerance": "{{error_tolerance}}",
+    "update_frequency": "{{update_frequency}}",
+    "accessibility_features": "{{accessibility_features}}",
+    "multimedia_integration": "{{multimedia_integration}}",
+    "data_privacy": "{{data_privacy}}",
+    "scalability_considerations": "{{scalability_considerations}}",
+    "interoperability": "{{interoperability}}",
+    "custom_parameters": {
+      "parameter_1": "{{custom_parameter_1}}",
+      "parameter_2": "{{custom_parameter_2}}",
+      "parameter_3": "{{custom_parameter_3}}"
+    }
+  }
+}
