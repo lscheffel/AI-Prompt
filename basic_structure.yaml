@@ -1,8 +1,8 @@
 {
   "prompt": {
-    "version": "3.1",
+    "version": "{{version}}",
     "timestamp": "{{current_timestamp}}",
-    "language": "{{preferred_language}}",
+    "language": "{{preferred_languages}}",
     "language_strictness": "{{language_strictness}}",
     "protocol_strictness": "{{protocol_strictness}}",
     "context": {
@@ -30,7 +30,8 @@
         "{{subquestion_1}}",
         "{{subquestion_2}}",
         "{{subquestion_3}}",
-        "{{subquestion_4}}"
+        "{{subquestion_4}}",
+        "{{subquestion_5}}"
       ],
       "examples": [
         {
@@ -40,13 +41,19 @@
         {
           "scenario": "{{scenario_2}}",
           "expected_outcome": "{{expected_outcome_2}}"
+        },
+        {
+          "scenario": "{{scenario_3}}",
+          "expected_outcome": "{{expected_outcome_3}}"
         }
       ],
       "additional_resources": [
         "{{resource_1}}",
         "{{resource_2}}",
-        "{{resource_3}}"
-      ]
+        "{{resource_3}}",
+        "{{resource_4}}",
+        "{{resource_5}}"
+      ],
     },
     "response_format": {
       "structure": "{{structure_type}}",
@@ -62,7 +69,8 @@
         "{{section_9}}",
         "{{section_10}}",
         "{{section_11}}",
-        "{{section_12}}"
+        "{{section_12}}",
+        ...
       ],
       "output_type": "{{output_type}}",
       "format_consistency": "{{format_consistency}}",
